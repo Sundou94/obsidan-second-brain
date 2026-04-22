@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "6314a943718670f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "945b223fe9f5b439",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd5e956bfcc5e625",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "02ef79e8e6a40c66",
+    "type": "split",
+    "children": [
+      {
+        "id": "61c152c1da5a0d79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9f6e779b3d9bde0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "b7aeec70ea593f6c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "e612dbf21bff03da",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "479999343838fa44",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c7c2fbf5076f18a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a31b3d4a6710bf4b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "강화학습/02. 밴딧 문제.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "02. 밴딧 문제 의 백링크"
+            }
+          },
+          {
+            "id": "793336ea4baf0d7c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "강화학습/02. 밴딧 문제.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "02. 밴딧 문제 의 나가는 링크"
+            }
+          },
+          {
+            "id": "68ba7b54e9e43f4e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "2dd4d296e1426871",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "8a145323cb91a382",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          },
+          {
+            "id": "95b2d8efb8b07240",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "Smart composer chat"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 402.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "smart-composer:Open smart composer": false,
+      "translate:Open translation view": false,
+      "audio-recorder:녹음 시작/정지": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+    }
+  },
+  "active": "cd5e956bfcc5e625",
+  "lastOpenFiles": [
+    "02. Areas/Study/제조데이터 분석과 최적화/20260317 3.md",
+    "02. Areas/Study/제조데이터 분석과 최적화/now.md",
+    "02. Areas/Study/제조데이터 분석과 최적화/Untitled.md",
+    "00. Inbox/00. Inbox.md",
+    "02. Areas/Study/제조데이터 분석과 최적화/제조 데이터 분석과 최적화(3주차 - 제조데이터란).pdf",
+    "02. Areas/Study/강화학습/강화학습.md",
+    "02. Areas/Study/제조데이터 분석과 최적화/제조데이터 분석과 최적화.md",
+    "02. Areas/Study/제조데이터 분석과 최적화",
+    "04. MOCs/04. MOCs.md",
+    "99. Archive/99. Archive.md",
+    "03. Resource/03. Resource.md",
+    "00. Inbox/제조 데이터 분석과 최적화(3주차 - 제조데이터란).pdf",
+    "00. Inbox/무제.base",
+    "01. Project_/01. Project 1.md",
+    "01. Project.md",
+    "02. Areas/배드민턴.md",
+    "02. Areas/🏸배드민턴.md",
+    "00. Inbox/textgenerator/templates/default/simplify.md",
+    "00. Inbox/textgenerator/templates/default/summarizeLarge.md",
+    "00. Inbox/textgenerator/templates/default/rewrite.md",
+    "00. Inbox/textgenerator/templates/default/getTitles.md",
+    "00. Inbox/textgenerator/templates/default/summarize.md",
+    "00. Inbox/textgenerator/templates/default/getOutline.md",
+    "00. Inbox/textgenerator/templates/default/getIdeas.md",
+    "00. Inbox/textgenerator/templates/default/getEmailNeg.md",
+    "00. Inbox/textgenerator/templates/default/getTags.md",
+    "00. Inbox/textgenerator/templates/default/getParagraph.md",
+    "00. Inbox/textgenerator/templates/default/getEmailPos.md",
+    "00. Inbox/textgenerator/templates/default",
+    "00. Inbox/textgenerator/templates",
+    "00. Inbox/textgenerator",
+    "01. Material/Untitled.md",
+    "00. Inbox/01. Insight/노트 정리에 대한 생각.md",
+    "00. Inbox/01. Insight",
+    "01. Project_/00. ToyProject",
+    "02. Areas/Study/강화학습",
+    "무제.canvas"
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "main": {
+    "id": "6314a943718670f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "34048c01353ca81b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db01bfa81d07db06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02. Areas/univalsity/강화학습/06주차_Temporal_Difference_Method_필기.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06주차_Temporal_Difference_Method_필기"
+            }
+          },
+          {
+            "id": "6354dd3f74ac05d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02. Areas/univalsity/제조데이터 분석과 최적화/시험문제/제조 데이터 분석과 최적화(2주차 - 제조 AI와 자율제조)_시험대비문제.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "제조 데이터 분석과 최적화(2주차 - 제조 AI와 자율제조)_시험대비문제"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "02ef79e8e6a40c66",
+    "type": "split",
+    "children": [
+      {
+        "id": "61c152c1da5a0d79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9f6e779b3d9bde0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "b7aeec70ea593f6c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "e612dbf21bff03da",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          },
+          {
+            "id": "5571d5c8c7812c35",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297.5
+  },
+  "right": {
+    "id": "479999343838fa44",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c7c2fbf5076f18a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a31b3d4a6710bf4b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "강화학습/02. 밴딧 문제.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "02. 밴딧 문제 의 백링크"
+            }
+          },
+          {
+            "id": "793336ea4baf0d7c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "강화학습/02. 밴딧 문제.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "02. 밴딧 문제 의 나가는 링크"
+            }
+          },
+          {
+            "id": "68ba7b54e9e43f4e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "2dd4d296e1426871",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "8a145323cb91a382",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02. Areas/univalsity/제조데이터 분석과 최적화/시험문제/제조 데이터 분석과 최적화(2주차 - 제조 AI와 자율제조)_시험대비문제.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "제조 데이터 분석과 최적화(2주차 - 제조 AI와 자율제조)_시험대비문제 의 개요"
+            }
+          },
+          {
+            "id": "c47e166ff9e000aa",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 312.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "smart-composer:Open smart composer": false,
+      "translate:Open translation view": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-extract-pdf-highlights:PDF Highlights": false,
+      "scribe:Scribe": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "6354dd3f74ac05d6",
+  "lastOpenFiles": [
+    "02. Areas/univalsity/강화학습/Q-Learning 발표자료/대본.md",
+    "02. Areas/univalsity/제조데이터 분석과 최적화/시험문제/제조 데이터 분석과 최적화(2주차 - 제조 AI와 자율제조)_시험대비문제.md",
+    "02. Areas/univalsity/제조데이터 분석과 최적화/시험문제",
+    "02. Areas/univalsity/제조데이터 분석과 최적화/무제 폴더",
+    "02. Areas/univalsity/제조데이터 분석과 최적화/6주차 소스 분석.canvas",
+    "02. Areas/univalsity/제조데이터 분석과 최적화/pipeline_diagram.md",
+    "02. Areas/univalsity/제조데이터 분석과 최적화/source_change_before_after.md",
+    "Tags/#copilot-conversation",
+    "copilot/copilot-conversations/API_Key_Missing_Error@20260420_202405.md",
+    "copilot/copilot-conversations",
+    "02. Areas/univalsity/제조데이터 분석과 최적화/pdf/제조 데이터 분석과 최적화(8주차 - 제조 공정 개선 및 최적화 방안.pdf",
+    "02. Areas/univalsity/강화학습/PDF/루닛_일일투자리포트_20260415.md",
+    "02. Areas/univalsity/강화학습/Q-Learning 발표자료/fjssp_qlearning_presentation_20260414152637.pdf",
+    "02. Areas/univalsity/제조데이터 분석과 최적화/pdf/제조 데이터 분석과 최적화 - 1주차 오리엔테이션.pdf",
+    "02. Areas/univalsity/제조데이터 분석과 최적화/pdf/제조 데이터 분석과 최적화(2주차 - 제조 AI와 자율제조).pdf",
+    "02. Areas/univalsity/강화학습/PDF/note-taker_SKILL_수정본.md",
+    "02. Areas/univalsity/강화학습/PDF/06-Temporal Difference Method.pdf",
+    "02. Areas/univalsity/강화학습/06주차_Temporal_Difference_Method_필기.md",
+    "무제 1.md",
+    "02. Areas/univalsity/강화학습/Q-Learning 발표자료",
+    "02. Areas/univalsity/강화학습/06주차_Temporal_Difference_Method_필기 1.md",
+    "02. Areas/univalsity/강화학습/PDF/test_write.md",
+    "02. Areas/univalsity/강화학습/PDF/루닛_일일투자리포트_20260413.md",
+    "02. Areas/univalsity/강화학습/PDF/루닛_일일투자리포트_20260411.md",
+    "02. Areas/univalsity/강화학습/Untitled 1.md",
+    "AI4I 2020 Predictive Maintenance Dataset.md",
+    "AI4I 2020 Predictive Maintenance 과제 해석.md",
+    "00. Inbox/4주차_제조데이터_수집및처리방법_필기.md",
+    "00. Inbox/Pasted image 20260401182429.png",
+    "00. Inbox/scribe-2026-03-31-질문에 대한 대응.md",
+    "00. Inbox/package.json.md",
+    "00. Inbox/무제.md",
+    "00. Inbox/Pasted image 20260318201311.png",
+    "00. Inbox/몬테카를로 방법 공부.md",
+    "00. Inbox/주식.md",
+    "00. Inbox/Vault.md",
+    "00. Inbox/scribe-2026-04-01-강화학습의 가치 평가와 정책 개선.md",
+    "00. Inbox/Pasted image 20260318201319.png",
+    "00. Inbox/Pasted image 20260401182441.png",
+    "02. Areas/univalsity/강화학습/05_몬테카를로_방법_필기.md",
+    "02. Areas/univalsity/강화학습/Untitled.md",
+    "Pasted image 20260401182429.png",
+    "Pasted image 20260401182441.png",
+    "02. Areas/univalsity/강화학습/Figure_1.png",
+    "Pasted image 20260318201319.png",
+    "Pasted image 20260318201311.png",
+    "무제.canvas"
+  ]
+}

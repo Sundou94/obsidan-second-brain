@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"cbf2a904b6e23979","type":"text","text":"6주차 소스 분석","x":-340,"y":-380,"width":180,"height":60},
+		{"id":"b6d74e47510e65c0","type":"text","text":"STEP 1 데이터 분석 ","x":-340,"y":-260,"width":200,"height":60},
+		{"id":"7306aa5061ba44c0","type":"text","text":"Init","x":-60,"y":-260,"width":200,"height":60},
+		{"id":"26dc5f219640d9c4","type":"text","text":"STEP 2 데이터 훈련","x":-340,"y":200,"width":200,"height":60},
+		{"id":"d86ce2438a292dff","type":"text","text":"len","x":-60,"y":-160,"width":200,"height":60},
+		{"id":"087a3a4a4e8ba82a","type":"text","text":"get item","x":-60,"y":-60,"width":200,"height":60},
+		{"id":"03b92d4dc50c04f9","type":"text","text":"show eda images","x":-60,"y":40,"width":200,"height":60}
+	],
+	"edges":[]
+}

@@ -1,0 +1,5 @@
+.smtcmp_json_db/
+.smtcmp_vector_db.tar.gz
+.trash/
+.space/
+.makemd/
