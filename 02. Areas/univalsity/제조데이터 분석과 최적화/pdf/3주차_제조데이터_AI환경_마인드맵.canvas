@@ -1,0 +1,367 @@
+{
+  "nodes": [
+    {
+      "id": "node_de04bd96",
+      "type": "text",
+      "text": "# 제조 데이터와 AI 개발 환경\n3주차 | 제조데이터 분석과 최적화",
+      "x": -160,
+      "y": -65,
+      "width": 320,
+      "height": 130,
+      "color": "1"
+    },
+    {
+      "id": "node_c7ca91c4",
+      "type": "text",
+      "text": "## 🔷 제조 데이터 이해\n\n제품수명주기 전반에서 생성되는 데이터 — 유형·품질·활용 방법",
+      "x": 460,
+      "y": -430.0,
+      "width": 260,
+      "height": 148,
+      "color": "2"
+    },
+    {
+      "id": "node_9b1a3f65",
+      "type": "text",
+      "text": "**4M1E 데이터 분류**\n\nMan(사람)·Machine(장비)·Material(재료)·Method(방법)·Environment(환경) — 제조 5대 요소",
+      "x": 980,
+      "y": -712.0,
+      "width": 240,
+      "height": 158,
+      "color": "3"
+    },
+    {
+      "id": "node_73eba530",
+      "type": "text",
+      "text": "**암묵지 → 형식지 변환**\n\n숙련공의 노하우(암묵지)를 센서·로그·매뉴얼로 명시화(형식지) → AI 학습 가능",
+      "x": 980,
+      "y": -514.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_e9e97e47",
+      "type": "text",
+      "text": "**데이터 유형 3분류**\n\n정형(테이블·CSV), 반정형(JSON·XML·로그), 비정형(이미지·오디오·영상)",
+      "x": 980,
+      "y": -336.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_4d27db7e",
+      "type": "text",
+      "text": "**제조 데이터셋 형태**\n\nAudio(진동·소음) / Image(표면검사) / Time-series(공정센서) — 용도별 전처리 다름",
+      "x": 980,
+      "y": -158.0,
+      "width": 240,
+      "height": 158,
+      "color": "3"
+    },
+    {
+      "id": "node_0bffd1aa",
+      "type": "text",
+      "text": "## 🔷 AI 도입 프로세스 7단계\n\n문제정의 → 데이터수집 → 전처리 → 모델설계 → 학습 → 평가 → 배포",
+      "x": 460,
+      "y": 302.0,
+      "width": 260,
+      "height": 148,
+      "color": "2"
+    },
+    {
+      "id": "node_985f9e81",
+      "type": "text",
+      "text": "**1단계: 문제 정의**\n\n제조 현장의 Pain Point를 AI로 해결 가능한 형태로 정형화",
+      "x": 980,
+      "y": 40.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_cf40cd32",
+      "type": "text",
+      "text": "**2~3단계: 데이터 수집·전처리**\n\n센서·MES·ERP에서 수집 → 결측치·이상치 제거 → 정규화",
+      "x": 980,
+      "y": 218.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_48d41d5d",
+      "type": "text",
+      "text": "**4~5단계: 모델 설계·학습**\n\n문제 유형(분류/회귀/이상탐지)에 맞는 알고리즘 선택 → 하이퍼파라미터 튜닝",
+      "x": 980,
+      "y": 396.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_7845862b",
+      "type": "text",
+      "text": "**6~7단계: 평가·배포**\n\n테스트셋 성능 검증 → 현장 통합(Edge/Cloud) → 모니터링",
+      "x": 980,
+      "y": 574.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_315c5b71",
+      "type": "text",
+      "text": "## 🔷 오픈 데이터셋\n\n국내외 제조 AI 벤치마크 데이터셋 플랫폼",
+      "x": -720,
+      "y": -456.0,
+      "width": 260,
+      "height": 128,
+      "color": "2"
+    },
+    {
+      "id": "node_a21b1a95",
+      "type": "text",
+      "text": "**AI Hub**\n\n과기부 주관 국내 AI 데이터 공개 플랫폼 — 이미지·음성·제조 다양 도메인",
+      "x": -1220,
+      "y": -639.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_10b8cb24",
+      "type": "text",
+      "text": "**KAMP(Korea AI Manufacturing Platform)**\n\n중소기업 특화 제조 AI 데이터·솔루션 오픈 플랫폼 — 뿌리산업 중심",
+      "x": -1220,
+      "y": -461.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_62a3824a",
+      "type": "text",
+      "text": "**데이터 품질 5대 지표 + MDQI**\n\n완전성·일관성·정확성·유효성·유일성 — MDQI 점수로 정량 평가",
+      "x": -1220,
+      "y": -283.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_8d78c021",
+      "type": "text",
+      "text": "## 🔷 AI 개발 환경 구축\n\nGPU·CUDA·Anaconda·Jupyter·PyTorch 스택",
+      "x": -720,
+      "y": 193.0,
+      "width": 260,
+      "height": 148,
+      "color": "2"
+    },
+    {
+      "id": "node_b3567bfa",
+      "type": "text",
+      "text": "**GPU & CUDA**\n\nNVIDIA GPU + CUDA 병렬 연산 — 딥러닝 학습 속도 CPU 대비 수십 배 향상\n\n```\nimport torch\ndevice = 'cuda' if torch.cuda.is_available() else 'cpu'\n```",
+      "x": -1220,
+      "y": -105.0,
+      "width": 240,
+      "height": 252,
+      "color": "3"
+    },
+    {
+      "id": "node_87f793f7",
+      "type": "text",
+      "text": "**Anaconda & 가상환경**\n\nconda create/activate로 프로젝트별 독립 환경 관리 — 패키지 충돌 방지",
+      "x": -1220,
+      "y": 187.0,
+      "width": 240,
+      "height": 158,
+      "color": "3"
+    },
+    {
+      "id": "node_3a08e6c7",
+      "type": "text",
+      "text": "**Pandas 기초**\n\nDataFrame으로 정형 제조 데이터 조작 — 집계·필터·결측치 처리\n\n```\nimport pandas as pd\ndf = pd.read_csv('data.csv')\ndf.describe()  # 기술통계\n```",
+      "x": -1220,
+      "y": 385.0,
+      "width": 240,
+      "height": 254,
+      "color": "3"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_2f464f81",
+      "fromNode": "node_de04bd96",
+      "fromSide": "right",
+      "toNode": "node_c7ca91c4",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_583bcc23",
+      "fromNode": "node_c7ca91c4",
+      "fromSide": "right",
+      "toNode": "node_9b1a3f65",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_67875fa1",
+      "fromNode": "node_c7ca91c4",
+      "fromSide": "right",
+      "toNode": "node_73eba530",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_cca82ca3",
+      "fromNode": "node_c7ca91c4",
+      "fromSide": "right",
+      "toNode": "node_e9e97e47",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_026a18c9",
+      "fromNode": "node_c7ca91c4",
+      "fromSide": "right",
+      "toNode": "node_4d27db7e",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_60a7f4b5",
+      "fromNode": "node_de04bd96",
+      "fromSide": "right",
+      "toNode": "node_0bffd1aa",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_798117b0",
+      "fromNode": "node_0bffd1aa",
+      "fromSide": "right",
+      "toNode": "node_985f9e81",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_9361b984",
+      "fromNode": "node_0bffd1aa",
+      "fromSide": "right",
+      "toNode": "node_cf40cd32",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_6037a655",
+      "fromNode": "node_0bffd1aa",
+      "fromSide": "right",
+      "toNode": "node_48d41d5d",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_7af608c1",
+      "fromNode": "node_0bffd1aa",
+      "fromSide": "right",
+      "toNode": "node_7845862b",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_65dae601",
+      "fromNode": "node_de04bd96",
+      "fromSide": "left",
+      "toNode": "node_315c5b71",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_8e9986cd",
+      "fromNode": "node_315c5b71",
+      "fromSide": "left",
+      "toNode": "node_a21b1a95",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_7f9e9c88",
+      "fromNode": "node_315c5b71",
+      "fromSide": "left",
+      "toNode": "node_10b8cb24",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_5490fb6d",
+      "fromNode": "node_315c5b71",
+      "fromSide": "left",
+      "toNode": "node_62a3824a",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_4243140f",
+      "fromNode": "node_de04bd96",
+      "fromSide": "left",
+      "toNode": "node_8d78c021",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_2f681a09",
+      "fromNode": "node_8d78c021",
+      "fromSide": "left",
+      "toNode": "node_b3567bfa",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_0e0e6857",
+      "fromNode": "node_8d78c021",
+      "fromSide": "left",
+      "toNode": "node_87f793f7",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_2f1645a9",
+      "fromNode": "node_8d78c021",
+      "fromSide": "left",
+      "toNode": "node_3a08e6c7",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_38fabfd3",
+      "fromNode": "node_e9e97e47",
+      "fromSide": "bottom",
+      "toNode": "node_4d27db7e",
+      "toSide": "top",
+      "label": "비정형 데이터 세부 유형",
+      "color": "5"
+    },
+    {
+      "id": "edge_d00703a8",
+      "fromNode": "node_73eba530",
+      "fromSide": "bottom",
+      "toNode": "node_cf40cd32",
+      "toSide": "top",
+      "label": "AI 학습 데이터 확보",
+      "color": "5"
+    },
+    {
+      "id": "edge_076aacca",
+      "fromNode": "node_62a3824a",
+      "fromSide": "bottom",
+      "toNode": "node_cf40cd32",
+      "toSide": "top",
+      "label": "전처리 품질 기준",
+      "color": "5"
+    }
+  ]
+}

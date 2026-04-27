@@ -1,0 +1,349 @@
+{
+  "nodes": [
+    {
+      "id": "node_ce287b1c",
+      "type": "text",
+      "text": "# 수치 데이터 기반 AI 개발\n5주차 | 제조데이터 분석과 최적화",
+      "x": -160,
+      "y": -65,
+      "width": 320,
+      "height": 130,
+      "color": "1"
+    },
+    {
+      "id": "node_5c6403d4",
+      "type": "text",
+      "text": "## 🔷 Case I: 용접 예지보전\n\n전압·전류·속도 시계열 데이터로 용접 불량을 사전 감지",
+      "x": 460,
+      "y": -74.0,
+      "width": 260,
+      "height": 148,
+      "color": "2"
+    },
+    {
+      "id": "node_20f4017d",
+      "type": "text",
+      "text": "**입력 데이터**\n\n용접 전압(V)·전류(A)·이동속도(mm/s) — 공정 중 실시간 수집되는 3채널 시계열",
+      "x": 980,
+      "y": -316.0,
+      "width": 240,
+      "height": 158,
+      "color": "3"
+    },
+    {
+      "id": "node_4bbf6a3e",
+      "type": "text",
+      "text": "**LSTM-Autoencoder**\n\n정상 용접 패턴만 학습 → 복원 오차가 크면 이상 — 비지도 이상탐지",
+      "x": 980,
+      "y": 30.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_7ff3fd80",
+      "type": "text",
+      "text": "**LSTM(Long Short-Term Memory)**\n\n시계열 장기 의존성 포착 — 셀 상태(Cell State)로 과거 패턴 유지\n\n```\nnn.LSTM(input_size=3,\n        hidden_size=64,\n        num_layers=2,\n        batch_first=True)\n```",
+      "x": 1440,
+      "y": -118.0,
+      "width": 220,
+      "height": 266,
+      "color": "4"
+    },
+    {
+      "id": "node_f95fbf75",
+      "type": "text",
+      "text": "**오토인코더(Autoencoder) 구조**\n\n인코더로 압축 → 디코더로 복원 → 복원 오차(MSE)로 이상 판정",
+      "x": 1440,
+      "y": 188.0,
+      "width": 220,
+      "height": 128,
+      "color": "4"
+    },
+    {
+      "id": "node_93640271",
+      "type": "text",
+      "text": "## 🔷 Case II: AI4I 2020 예지보전\n\n공개 데이터셋으로 CNC 공작기계 고장을 신경망으로 예측",
+      "x": -720,
+      "y": -74.0,
+      "width": 260,
+      "height": 148,
+      "color": "2"
+    },
+    {
+      "id": "node_5c0693d5",
+      "type": "text",
+      "text": "**AI4I 2020 데이터셋**\n\n공기온도·공정온도·회전속도·토크·공구마모 5개 특징 — 10,000개 샘플",
+      "x": -1220,
+      "y": -683.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_a5cbc283",
+      "type": "text",
+      "text": "**층화추출(Stratified Sampling)**\n\n클래스 비율을 유지하며 Train/Test 분리 → 불균형 데이터에서 대표성 보장\n\n```\nfrom sklearn.model_selection import train_test_split\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, stratify=y, test_size=0.2)\n```",
+      "x": -1660,
+      "y": -970.0,
+      "width": 220,
+      "height": 264,
+      "color": "4"
+    },
+    {
+      "id": "node_47b93aa9",
+      "type": "text",
+      "text": "**원핫인코딩(One-Hot Encoding)**\n\n범주형 고장 유형(TWF/HDF/PWF)을 0/1 벡터로 변환 → 신경망 입력 가능\n\n```\npd.get_dummies(df['Type'], prefix='Type')\n```",
+      "x": -1660,
+      "y": -666.0,
+      "width": 220,
+      "height": 220,
+      "color": "4"
+    },
+    {
+      "id": "node_e3d3ee4a",
+      "type": "text",
+      "text": "**데이터 누수(Data Leakage) 방지**\n\n정규화 Scaler는 훈련셋에만 fit → 검증/테스트셋은 transform만 적용",
+      "x": -1660,
+      "y": -406.0,
+      "width": 220,
+      "height": 148,
+      "color": "4"
+    },
+    {
+      "id": "node_de756ce0",
+      "type": "text",
+      "text": "**신경망(Neural Network) 구조**\n\nBatchNorm + Dropout으로 안정화 — 제조 수치 데이터 분류",
+      "x": -1220,
+      "y": -70.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_851184ef",
+      "type": "text",
+      "text": "**배치 정규화(BatchNorm)**\n\n미니배치 단위로 입력 정규화 → 학습 안정화·수렴 가속\n\n```\nnn.Linear(64, 32)\nnn.BatchNorm1d(32)\nnn.ReLU()\nnn.Dropout(0.3)\n```",
+      "x": -1660,
+      "y": -218.0,
+      "width": 220,
+      "height": 266,
+      "color": "4"
+    },
+    {
+      "id": "node_454d6662",
+      "type": "text",
+      "text": "**가중치 샘플링(WeightedRandomSampler)**\n\n소수 클래스를 더 자주 샘플링 → 불균형 문제 완화",
+      "x": -1660,
+      "y": 88.0,
+      "width": 220,
+      "height": 128,
+      "color": "4"
+    },
+    {
+      "id": "node_75f2b24a",
+      "type": "text",
+      "text": "**학습 및 평가 프로세스**\n\n역전파·Epoch·Train/Val/Test + TensorBoard 시각화",
+      "x": -1220,
+      "y": 544.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_93ccb8d6",
+      "type": "text",
+      "text": "**역전파(Backpropagation) & Epoch**\n\nLoss 기울기를 역방향 전파 → 가중치 업데이트 반복 — 1 Epoch = 전체 데이터 1회 통과\n\n```\noptimizer.zero_grad()\nloss.backward()\noptimizer.step()\n```",
+      "x": -1660,
+      "y": 256.0,
+      "width": 220,
+      "height": 264,
+      "color": "4"
+    },
+    {
+      "id": "node_abaf0ebe",
+      "type": "text",
+      "text": "**모델 저장(.pth / .pkl)**\n\n.pth = PyTorch 네이티브 / .pkl = pickle — 학습 완료 모델 재사용\n\n```\ntorch.save(model.state_dict(), 'model.pth')\nmodel.load_state_dict(torch.load('model.pth'))\n```",
+      "x": -1660,
+      "y": 560.0,
+      "width": 220,
+      "height": 242,
+      "color": "4"
+    },
+    {
+      "id": "node_ebc0b1af",
+      "type": "text",
+      "text": "**TensorBoard 시각화**\n\nLoss·Accuracy 곡선, 가중치 분포, 혼동행렬을 실시간 모니터링",
+      "x": -1660,
+      "y": 842.0,
+      "width": 220,
+      "height": 128,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_b6f564b7",
+      "fromNode": "node_ce287b1c",
+      "fromSide": "right",
+      "toNode": "node_5c6403d4",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_9bfd3b35",
+      "fromNode": "node_5c6403d4",
+      "fromSide": "right",
+      "toNode": "node_20f4017d",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_e630fcc4",
+      "fromNode": "node_5c6403d4",
+      "fromSide": "right",
+      "toNode": "node_4bbf6a3e",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_6386cada",
+      "fromNode": "node_4bbf6a3e",
+      "fromSide": "right",
+      "toNode": "node_7ff3fd80",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_5af3839b",
+      "fromNode": "node_4bbf6a3e",
+      "fromSide": "right",
+      "toNode": "node_f95fbf75",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_42d0b694",
+      "fromNode": "node_ce287b1c",
+      "fromSide": "left",
+      "toNode": "node_93640271",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_c3b6b2d1",
+      "fromNode": "node_93640271",
+      "fromSide": "left",
+      "toNode": "node_5c0693d5",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_a344feab",
+      "fromNode": "node_5c0693d5",
+      "fromSide": "left",
+      "toNode": "node_a5cbc283",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_7d8aaee3",
+      "fromNode": "node_5c0693d5",
+      "fromSide": "left",
+      "toNode": "node_47b93aa9",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_515c833a",
+      "fromNode": "node_5c0693d5",
+      "fromSide": "left",
+      "toNode": "node_e3d3ee4a",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_057ede2d",
+      "fromNode": "node_93640271",
+      "fromSide": "left",
+      "toNode": "node_de756ce0",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_fbc79048",
+      "fromNode": "node_de756ce0",
+      "fromSide": "left",
+      "toNode": "node_851184ef",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_4a87b086",
+      "fromNode": "node_de756ce0",
+      "fromSide": "left",
+      "toNode": "node_454d6662",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_89132b62",
+      "fromNode": "node_93640271",
+      "fromSide": "left",
+      "toNode": "node_75f2b24a",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_1446b903",
+      "fromNode": "node_75f2b24a",
+      "fromSide": "left",
+      "toNode": "node_93ccb8d6",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_bdf8e2a6",
+      "fromNode": "node_75f2b24a",
+      "fromSide": "left",
+      "toNode": "node_abaf0ebe",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_30d1359e",
+      "fromNode": "node_75f2b24a",
+      "fromSide": "left",
+      "toNode": "node_ebc0b1af",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_33a19683",
+      "fromNode": "node_f95fbf75",
+      "fromSide": "bottom",
+      "toNode": "node_de756ce0",
+      "toSide": "top",
+      "label": "공통 신경망 기반",
+      "color": "5"
+    },
+    {
+      "id": "edge_9dfd9847",
+      "fromNode": "node_e3d3ee4a",
+      "fromSide": "bottom",
+      "toNode": "node_a5cbc283",
+      "toSide": "top",
+      "label": "올바른 데이터 분리 원칙",
+      "color": "5"
+    },
+    {
+      "id": "edge_589f0fb3",
+      "fromNode": "node_454d6662",
+      "fromSide": "bottom",
+      "toNode": "node_a5cbc283",
+      "toSide": "top",
+      "label": "클래스 불균형 대응 전략",
+      "color": "5"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "nodes": [
+    {
+      "id": "node_9878ab14",
+      "type": "text",
+      "text": "# 제조AI와 자율제조 패러다임\n2주차 | 제조데이터 분석과 최적화",
+      "x": -160,
+      "y": -65,
+      "width": 320,
+      "height": 130,
+      "color": "1"
+    },
+    {
+      "id": "node_f0c0b407",
+      "type": "text",
+      "text": "## 🔷 제조 패러다임 진화\n\n산업혁명 1.0부터 5.0까지 — 기계화 → 자동화 → 디지털화 → 지능화",
+      "x": 460,
+      "y": -450.0,
+      "width": 260,
+      "height": 148,
+      "color": "2"
+    },
+    {
+      "id": "node_499c8384",
+      "type": "text",
+      "text": "**Industry 1.0 ~ 5.0**\n\n1.0 증기기계, 2.0 전기·대량생산, 3.0 자동화, 4.0 사이버물리, 5.0 인간-AI 협업",
+      "x": 980,
+      "y": -633.0,
+      "width": 240,
+      "height": 158,
+      "color": "3"
+    },
+    {
+      "id": "node_c20f2f43",
+      "type": "text",
+      "text": "**자동화 → 스마트팩토리 → 자율제조**\n\n단순 반복 자동화 → 데이터 기반 스마트화 → AI 자율 의사결정",
+      "x": 980,
+      "y": -435.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_11dbe7dc",
+      "type": "text",
+      "text": "**다크팩토리(Dark Factory)**\n\n조명 없이도 가동되는 완전 자율 무인 공장 — 자율제조의 최종 형태",
+      "x": 980,
+      "y": -257.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_43d7b556",
+      "type": "text",
+      "text": "## 🔷 DX vs AX\n\n디지털 전환과 AI 전환의 차이와 관계",
+      "x": 460,
+      "y": 213.0,
+      "width": 260,
+      "height": 128,
+      "color": "2"
+    },
+    {
+      "id": "node_07af0303",
+      "type": "text",
+      "text": "**DX(Digital Transformation) 3단계**\n\nDigitization(아날로그→디지털) → Digitalization(프로세스 디지털화) → Digital Transformation(비즈니스 모델 혁신)",
+      "x": 980,
+      "y": -79.0,
+      "width": 240,
+      "height": 178,
+      "color": "3"
+    },
+    {
+      "id": "node_870ea935",
+      "type": "text",
+      "text": "**AX(AI Transformation)**\n\nDX 위에 AI를 얹어 의사결정·최적화·예측을 자동화하는 차세대 전환",
+      "x": 980,
+      "y": 139.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_5457078a",
+      "type": "text",
+      "text": "**DX 성공 사례**\n\n스타벅스(사이렌오더·개인화 추천), 쿠팡(풀필먼트 자동화) — 데이터 기반 UX 혁신",
+      "x": 980,
+      "y": 317.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_ce9c982c",
+      "type": "text",
+      "text": "**DX 실패 사례**\n\nGE(디지털 부서 분리 실패), 포드(IT-현장 단절) — 조직문화 미비가 원인",
+      "x": 980,
+      "y": 495.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_b5ddf872",
+      "type": "text",
+      "text": "## 🔷 제조AI 적용 영역\n\nAX가 실제 제조 현장에 적용되는 4가지 핵심 영역",
+      "x": -720,
+      "y": -430.0,
+      "width": 260,
+      "height": 148,
+      "color": "2"
+    },
+    {
+      "id": "node_5908182e",
+      "type": "text",
+      "text": "**예지보전(Predictive Maintenance)**\n\n센서 데이터로 고장을 사전 예측 → 계획 외 다운타임 최소화",
+      "x": -1220,
+      "y": -692.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_f9d20f38",
+      "type": "text",
+      "text": "**품질검사(Quality Inspection)**\n\n카메라·AI로 불량을 실시간 자동 탐지 → 인력 대비 정확도·속도 향상",
+      "x": -1220,
+      "y": -514.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_a3dcee87",
+      "type": "text",
+      "text": "**공정 최적화(Process Optimization)**\n\n생산 파라미터를 AI가 실시간 조정 → 수율·에너지 효율 극대화",
+      "x": -1220,
+      "y": -336.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_16a66873",
+      "type": "text",
+      "text": "**공급망 최적화(Supply Chain Optimization)**\n\n수요 예측·재고 조정·물류 경로 최적화를 AI가 자동화",
+      "x": -1220,
+      "y": -158.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_a290ec1b",
+      "type": "text",
+      "text": "## 🔷 자율제조 핵심 기술\n\nAI Native · MAS · Physical AI 3축으로 구현",
+      "x": -720,
+      "y": 282.0,
+      "width": 260,
+      "height": 148,
+      "color": "2"
+    },
+    {
+      "id": "node_ef48c9cc",
+      "type": "text",
+      "text": "**AI Native 제조**\n\n설계 단계부터 AI를 내장 — 데이터 파이프라인·추론 엔진이 제조 시스템에 통합",
+      "x": -1220,
+      "y": 20.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_8fe1e43d",
+      "type": "text",
+      "text": "**MAS(Multi-Agent System)**\n\n여러 AI 에이전트가 협력·경쟁하며 공장 전체 최적화를 자율 달성",
+      "x": -1220,
+      "y": 198.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_98b7bb31",
+      "type": "text",
+      "text": "**Physical AI**\n\n로봇·코봇이 AI와 결합해 물리 환경에서 자율 작업 수행 — 제조 실행 레이어",
+      "x": -1220,
+      "y": 376.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_be424db0",
+      "type": "text",
+      "text": "**소프트웨어 정의 팩토리(Software Defined Factory)**\n\n하드웨어 역할을 소프트웨어가 정의 → 유연한 생산라인 재구성 가능",
+      "x": -1220,
+      "y": 554.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_232d811f",
+      "fromNode": "node_9878ab14",
+      "fromSide": "right",
+      "toNode": "node_f0c0b407",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_2d89b1c5",
+      "fromNode": "node_f0c0b407",
+      "fromSide": "right",
+      "toNode": "node_499c8384",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_89790716",
+      "fromNode": "node_f0c0b407",
+      "fromSide": "right",
+      "toNode": "node_c20f2f43",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_26910fbf",
+      "fromNode": "node_f0c0b407",
+      "fromSide": "right",
+      "toNode": "node_11dbe7dc",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_51c27fc1",
+      "fromNode": "node_9878ab14",
+      "fromSide": "right",
+      "toNode": "node_43d7b556",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_28dc97b3",
+      "fromNode": "node_43d7b556",
+      "fromSide": "right",
+      "toNode": "node_07af0303",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_4d53d8e1",
+      "fromNode": "node_43d7b556",
+      "fromSide": "right",
+      "toNode": "node_870ea935",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_74bc473e",
+      "fromNode": "node_43d7b556",
+      "fromSide": "right",
+      "toNode": "node_5457078a",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_01ddcef1",
+      "fromNode": "node_43d7b556",
+      "fromSide": "right",
+      "toNode": "node_ce9c982c",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_6bdb4a8a",
+      "fromNode": "node_9878ab14",
+      "fromSide": "left",
+      "toNode": "node_b5ddf872",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_30e7b715",
+      "fromNode": "node_b5ddf872",
+      "fromSide": "left",
+      "toNode": "node_5908182e",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_3abfbd98",
+      "fromNode": "node_b5ddf872",
+      "fromSide": "left",
+      "toNode": "node_f9d20f38",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_e93d2edd",
+      "fromNode": "node_b5ddf872",
+      "fromSide": "left",
+      "toNode": "node_a3dcee87",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_edd4ec60",
+      "fromNode": "node_b5ddf872",
+      "fromSide": "left",
+      "toNode": "node_16a66873",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_e84a5ea5",
+      "fromNode": "node_9878ab14",
+      "fromSide": "left",
+      "toNode": "node_a290ec1b",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_7eed071b",
+      "fromNode": "node_a290ec1b",
+      "fromSide": "left",
+      "toNode": "node_ef48c9cc",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_8e4ba16d",
+      "fromNode": "node_a290ec1b",
+      "fromSide": "left",
+      "toNode": "node_8fe1e43d",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_b4bdf9cd",
+      "fromNode": "node_a290ec1b",
+      "fromSide": "left",
+      "toNode": "node_98b7bb31",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_39b56414",
+      "fromNode": "node_a290ec1b",
+      "fromSide": "left",
+      "toNode": "node_be424db0",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_9d2aacb1",
+      "fromNode": "node_870ea935",
+      "fromSide": "bottom",
+      "toNode": "node_5908182e",
+      "toSide": "top",
+      "label": "AX의 대표 적용",
+      "color": "5"
+    },
+    {
+      "id": "edge_20e7574a",
+      "fromNode": "node_07af0303",
+      "fromSide": "bottom",
+      "toNode": "node_870ea935",
+      "toSide": "top",
+      "label": "DX 위에 AX 구축",
+      "color": "5"
+    },
+    {
+      "id": "edge_3071bd36",
+      "fromNode": "node_c20f2f43",
+      "fromSide": "bottom",
+      "toNode": "node_be424db0",
+      "toSide": "top",
+      "label": "자율제조 구현 수단",
+      "color": "5"
+    }
+  ]
+}

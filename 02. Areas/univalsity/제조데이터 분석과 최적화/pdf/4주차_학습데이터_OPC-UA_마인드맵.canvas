@@ -1,0 +1,313 @@
+{
+  "nodes": [
+    {
+      "id": "node_962e0047",
+      "type": "text",
+      "text": "# AI 학습데이터 구축과 산업 통신 표준\n4주차 | 제조데이터 분석과 최적화",
+      "x": -160,
+      "y": -65,
+      "width": 320,
+      "height": 130,
+      "color": "1"
+    },
+    {
+      "id": "node_51af62c6",
+      "type": "text",
+      "text": "## 🔷 AI 학습데이터 구축 절차\n\n획득 → 정제 → 가공 → 학습 4단계 파이프라인",
+      "x": 460,
+      "y": -430.0,
+      "width": 260,
+      "height": 148,
+      "color": "2"
+    },
+    {
+      "id": "node_c5b22886",
+      "type": "text",
+      "text": "**1단계: 데이터 획득**\n\n텍스트·이미지·영상·오디오 유형별 수집 방식 차이 — 센서/카메라/마이크",
+      "x": 980,
+      "y": -702.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_067d6cd8",
+      "type": "text",
+      "text": "**2단계: 데이터 정제**\n\n중복 제거·결측치 처리·이상치 탐지 → 신뢰할 수 있는 원시 데이터 확보",
+      "x": 980,
+      "y": -524.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_7324f7ad",
+      "type": "text",
+      "text": "**3단계: 데이터 가공(라벨링)**\n\n정상/불량 라벨 부착, 바운딩박스·세그멘테이션 마스크 생성 — 가장 비용↑",
+      "x": 980,
+      "y": -346.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_706947f0",
+      "type": "text",
+      "text": "**4단계: 학습 데이터 구성**\n\nTrain/Validation/Test 분리 → 클래스 불균형 처리 → 증강(Augmentation)",
+      "x": 980,
+      "y": -168.0,
+      "width": 240,
+      "height": 158,
+      "color": "3"
+    },
+    {
+      "id": "node_47de3cda",
+      "type": "text",
+      "text": "## 🔷 RAMI 4.0 참조모델\n\n스마트팩토리 아키텍처를 3축 입체 구조로 표준화",
+      "x": 460,
+      "y": 302.0,
+      "width": 260,
+      "height": 128,
+      "color": "2"
+    },
+    {
+      "id": "node_df0db576",
+      "type": "text",
+      "text": "**X축: 수명주기(Lifecycle)**\n\nType(설계·프로토타입) ↔ Instance(생산·유지보수) — IEC 62890",
+      "x": 980,
+      "y": 30.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_a8505576",
+      "type": "text",
+      "text": "**Y축: 계층(Hierarchy)**\n\n제품 → 필드 → 제어 → 스테이션 → 작업셀 → 공장 → 엔터프라이즈",
+      "x": 980,
+      "y": 208.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_3cb5f0ad",
+      "type": "text",
+      "text": "**Z축: 레이어(Layer)**\n\n자산·통합·통신·정보·기능·비즈니스 6개 레이어 — 디지털 트윈 기반",
+      "x": 980,
+      "y": 386.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_39872f07",
+      "type": "text",
+      "text": "**AAS(Asset Administration Shell)**\n\n물리 자산의 디지털 쌍둥이 — 자산 정보를 표준 형식으로 노출·공유",
+      "x": 980,
+      "y": 564.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_355abda9",
+      "type": "text",
+      "text": "## 🔷 OPC-UA 통신 표준\n\n제조 현장 장비 간 플랫폼 독립 안전 통신 프로토콜",
+      "x": -720,
+      "y": -74.0,
+      "width": 260,
+      "height": 148,
+      "color": "2"
+    },
+    {
+      "id": "node_5a0c091c",
+      "type": "text",
+      "text": "**클라이언트-서버(Client-Server) 방식**\n\n클라이언트가 서버에 데이터 요청 → 실시간 모니터링·제어에 적합\n\n```\n# asyncua로 OPC-UA 서버 연결\nclient = Client('opc.tcp://localhost:4840')\nawait client.connect()\n```",
+      "x": -1220,
+      "y": -461.0,
+      "width": 240,
+      "height": 254,
+      "color": "3"
+    },
+    {
+      "id": "node_1282fe1f",
+      "type": "text",
+      "text": "**PubSub 방식**\n\n발행자가 토픽에 데이터 게시 → 구독자가 수신 (브로커 기반, 대규모 IoT 적합)",
+      "x": -1220,
+      "y": -167.0,
+      "width": 240,
+      "height": 138,
+      "color": "3"
+    },
+    {
+      "id": "node_25fe0c11",
+      "type": "text",
+      "text": "**OPC-UA 4대 규격**\n\nDA(데이터접근) · HA(이력접근) · AC(알람&조건) · Prog(프로그램) — 기능별 표준",
+      "x": -1220,
+      "y": 11.0,
+      "width": 240,
+      "height": 158,
+      "color": "3"
+    },
+    {
+      "id": "node_ab56248d",
+      "type": "text",
+      "text": "**데이터 파이프라인 실습**\n\nOPC-UA → asyncua 클라이언트 → 데이터 수집 → Pandas DataFrame 변환\n\n```\nnode = client.get_node('ns=2;i=2')\nvalue = await node.get_value()\n```",
+      "x": -1220,
+      "y": 209.0,
+      "width": 240,
+      "height": 252,
+      "color": "3"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_3869b251",
+      "fromNode": "node_962e0047",
+      "fromSide": "right",
+      "toNode": "node_51af62c6",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_ce3d1960",
+      "fromNode": "node_51af62c6",
+      "fromSide": "right",
+      "toNode": "node_c5b22886",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_94ba76c8",
+      "fromNode": "node_51af62c6",
+      "fromSide": "right",
+      "toNode": "node_067d6cd8",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_91bac7a4",
+      "fromNode": "node_51af62c6",
+      "fromSide": "right",
+      "toNode": "node_7324f7ad",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_dc50eb5a",
+      "fromNode": "node_51af62c6",
+      "fromSide": "right",
+      "toNode": "node_706947f0",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_089db33e",
+      "fromNode": "node_962e0047",
+      "fromSide": "right",
+      "toNode": "node_47de3cda",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_2ae1cacc",
+      "fromNode": "node_47de3cda",
+      "fromSide": "right",
+      "toNode": "node_df0db576",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_d5c4d209",
+      "fromNode": "node_47de3cda",
+      "fromSide": "right",
+      "toNode": "node_a8505576",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_481a6fd2",
+      "fromNode": "node_47de3cda",
+      "fromSide": "right",
+      "toNode": "node_3cb5f0ad",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_01f7d168",
+      "fromNode": "node_47de3cda",
+      "fromSide": "right",
+      "toNode": "node_39872f07",
+      "toSide": "left",
+      "label": ""
+    },
+    {
+      "id": "edge_aa3f2359",
+      "fromNode": "node_962e0047",
+      "fromSide": "left",
+      "toNode": "node_355abda9",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_7e801910",
+      "fromNode": "node_355abda9",
+      "fromSide": "left",
+      "toNode": "node_5a0c091c",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_e1d5f679",
+      "fromNode": "node_355abda9",
+      "fromSide": "left",
+      "toNode": "node_1282fe1f",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_1a4ff796",
+      "fromNode": "node_355abda9",
+      "fromSide": "left",
+      "toNode": "node_25fe0c11",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_91a2fed2",
+      "fromNode": "node_355abda9",
+      "fromSide": "left",
+      "toNode": "node_ab56248d",
+      "toSide": "right",
+      "label": ""
+    },
+    {
+      "id": "edge_aa6a0b1e",
+      "fromNode": "node_39872f07",
+      "fromSide": "bottom",
+      "toNode": "node_355abda9",
+      "toSide": "top",
+      "label": "AAS 데이터 노출 수단",
+      "color": "5"
+    },
+    {
+      "id": "edge_c9b9177f",
+      "fromNode": "node_7324f7ad",
+      "fromSide": "bottom",
+      "toNode": "node_706947f0",
+      "toSide": "top",
+      "label": "라벨 → 학습셋 구성",
+      "color": "5"
+    },
+    {
+      "id": "edge_4ea92662",
+      "fromNode": "node_3cb5f0ad",
+      "fromSide": "bottom",
+      "toNode": "node_5a0c091c",
+      "toSide": "top",
+      "label": "통신 레이어 구현체",
+      "color": "5"
+    }
+  ]
+}
